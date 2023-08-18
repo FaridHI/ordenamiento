@@ -19,5 +19,11 @@ public class Ordenamiento {
             System.out.println("Ingrese el numero: ");
             numeros[i] = scanner.nextInt();
         }
+        
+        for (int i = 0; i < numeros.length - 1; i++){
+            for(int j = 0; j < numeros.length - i - 1; j++){
+                if(numero[j] > numeros[j + 1]);
+            }
+        }
     }
 }
