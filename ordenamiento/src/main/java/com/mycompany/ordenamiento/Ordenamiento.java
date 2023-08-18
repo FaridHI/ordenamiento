@@ -22,7 +22,11 @@ public class Ordenamiento {
         
         for (int i = 0; i < numeros.length - 1; i++){
             for(int j = 0; j < numeros.length - i - 1; j++){
-                if(numero[j] > numeros[j + 1]);
+                if(numeros[j] > numeros[j + 1]){
+                    int temp = numeros[j];
+                    numeros[j] = numeros[j + 1];
+                    numeros[j + 1] = temp;
+                }
             }
         }
     }
