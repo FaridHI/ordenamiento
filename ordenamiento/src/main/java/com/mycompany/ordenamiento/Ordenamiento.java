@@ -29,5 +29,10 @@ public class Ordenamiento {
                 }
             }
         }
+        
+        System.out.println("Numeros ordenados de menor a mayor:");
+        for (int numero : numeros){
+            System.out.print(numero + " ");
+        }
     }
 }
